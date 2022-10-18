@@ -32,20 +32,22 @@ header{
 
 main{
     grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 /* conteudo do main */
 section{
     height: 100vh;
 }
 
-.sobre-mim{
-    background-color: blue;
-}
 .projetos{
     background-color: bisque;
+    width: 100%;
 }
 .contato{
     background-color: violet;
+    width: 100%;
 }
 
 
