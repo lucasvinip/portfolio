@@ -4,11 +4,11 @@
     font-size: 1.25rem;
 }
 
-li{
+.menu li{
     border-bottom: 3px solid transparent;
     transition: border-color .6s;
 }
 
-li:hover{
+.menu li:hover{
     border-color: var(--primary-color);
 }

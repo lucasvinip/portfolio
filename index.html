@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+
+    <script src="https://kit.fontawesome.com/4ea9540e8d.js" crossorigin="anonymous"
+    >
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com"
     >
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin
@@ -15,7 +19,10 @@
     <link rel="stylesheet" href="./css/logo.css">
     <link rel="stylesheet" href="./css/menu.css">
     <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/section-title.css">
     <link rel="stylesheet" href="./css/sobre-mim.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/contato.css">
     <title>Portfolio - Lucas Vinicius</title>
 </head>
 <body>
@@ -53,12 +60,137 @@
        </section>
        <section class="sobre-mim" id="sobre-mim">
            <h2 class="section-title">Sobre mim</h2>
-           <div class="descricao"></div>
-           <div class="skills"></div>
+           <div class="descricao">
+               <h3 class="descricao__title">Quem sou?</h3>
+               <p class="descricao__text">Sou iniciante na área de criação e manutenção de sites
+                   , tenho conhecimento  em prototipação e designer sempre pensando na experiência do usuário.
+                    Sou apaixonado pelo mundo digital e principalmente desenvolvimento
+                    , sempre procurando inspiração nos meus colegas de trabalho e no mundo que me rodeia.</p>
+           </div>
+           <div class="skills">
+               <h3 class="skills__title">Skills</h3>
+               <ul class="skills__container">
+                   <li class="skills__icon">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML</span>
+                   </li>
+                   <li class="skills__icon">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS</span>
+                   </li>
+                   <li class="skills__icon">
+                        <i class="fab fa-js"></i>
+                        <span>JS</span>
+                   </li>
+                   <li class="skills__icon">
+                        <i class="fab fa-figma"></i>
+                        <span>FIGMA</span>
+                   </li>
+                   <li class="skills__icon">
+                        <i class="fab fa-github"></i>
+                        <span>GITHUB</span>
+                   </li>
+                   <li class="skills__icon">
+                        <i class="fab fa-java"></i>
+                        <span>JAVA</span>
+                   </li>
+               </ul>
+           </div>
        </section>
-       <section class="projetos" id="projetos"></section>
-       <section class="contato" id="contato"></section>
+       <section class="projetos" id="projetos">
+           <h2 class="section-title">Projetos</h2>
+           <div class="card-container">
+               <a href="https://github.com/lucasvinip/receita-bolo" target="_blank" class="card">
+                   <img src="./img/bolo.png" alt="bolo">
+               </a>
+               <a href="https://github.com/lucasvinip/pagina-cris" target="_blank" class="card">
+                   <img src="./img/cr7.png" alt="bolo">
+               </a>
+               <a href="https://github.com/lucasvinip/landing-page-pikachu" target="_blank" class="card">
+                   <img src="./img/picachu.png" alt="bolo">
+               </a>
+               <a href="https://github.com/lucasvinip/headphone-purple" target="_blank" class="card">
+                   <img src="./img/phone.png" alt="bolo">
+               </a>
+               <a href="https://github.com/lucasvinip/pagina-nike" target="_blank" class="card">
+                   <img src="./img/nike.png" alt="bolo">
+               </a>
+               <a href="https://github.com/lucasvinip/receita-bolo" target="_blank" class="card">
+                   <img src="./img/bolo.png" alt="bolo">
+               </a>
+           </div>
+       </section>
+       <section class="contato" id="contato">
+           <h2 class="section-title">Contato</h2>
+           <ul class="contato-container">
+               <li>
+                   <h3>Contato</h3>
+               </li>
+               <li>
+                   <div class="contato-item">
+                        <i class="fas fa-phone-alt contato-item__icon"></i>
+                        <span class="contato-item__text">(11) 4772-4700</span>
+                   </div>
+               </li>
+               <li>
+                   <div class="contato-item">
+                        <i class="fas fa-envelope contato-item__icon"></i>
+                        <span class="contato-item__text">l.vinicius1577@gmail.com</span>
+                   </div>
+               </li>
+               <li>
+                   <div class="contato-item">
+                        <i class="fab fa-whatsapp contato-item__icon"></i>
+                        <span class="contato-item__text">(11) 9759-6195</span>
+                   </div>
+               </li>
+           </ul>
+           <ul class="social-container">
+               <li class="social">
+                   <i class="fab fa-instagram"></i>
+               </li>
+               <li class="social">
+                   <i class="fab fa-twitter"></i>
+               </li>
+               <li class="social">
+                   <i class="fab fa-youtube"></i>
+               </li>
+               <li class="social">
+                   <i class="fab fa-linkedin"></i>
+               </li>
+           </ul>
+           <ul class="link-container">
+               <li>
+                   <h3>Link</h3>
+               </li>
+               <li>
+                   <a href="#home">Início</a>
+               </li>
+               <li>
+                   <a href="#sobre-mim">Sobre mim</a>
+               </li>
+               <li>
+                   <a href="#projetos">Projetos</a>
+               </li>
+               <li>
+                   <a href="#contato">Contato</a>
+               </li>
+           </ul>
+       </section>
    </main>
-   <footer>footer</footer> 
+   <footer>
+        Todos os direitos reservados reservados 2022 \ Desenvolvido por Lucas Vinicius
+   </footer> 
 </body>
 </html>
+
+<!-- Tablet -->
+
+<!-- @media(max-width: 960px){
+
+} -->
+
+<!-- Mobile -->
+<!-- @media(max-width: 640px){
+    
+} -->

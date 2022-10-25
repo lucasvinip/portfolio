@@ -1,12 +1,15 @@
 :root{
     --primary-color: #FEDC00;
-    --second-color: #252525;
+    --icon-color: #252525;
+
 }
+
 
 /* usado para descer a linha mais suave quando clicar em algum link da tela */
 html{
     scroll-behavior: smooth;
 }
+
 
 body{
     display: grid;
@@ -41,20 +44,14 @@ section{
     height: 100vh;
 }
 
-.projetos{
-    background-color: bisque;
-    width: 100%;
-}
-.contato{
-    background-color: violet;
-    width: 100%;
-}
-
 
 footer{
     grid-area: content;
     place-self: end center;
     height: 50px;
     width: 100%;
-    background-color: beige;
+    display: grid;
+    place-content: center;
+    border-top: 2px solid #fff;
+    font-size: .75rem;
 }
