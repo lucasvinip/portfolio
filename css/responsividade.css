@@ -1,0 +1,74 @@
+/* Tablet */
+<!-- @media(max-width: 960px){
+
+} 
+
+
+/* Mobile */
+<!-- @media(max-width: 640px) {
+   
+
+    .logo{
+        padding: 30px;
+    }
+
+
+    .menu li{
+        display: none;
+    }
+
+    .profile{
+        display: grid;
+        place-items: center;
+        gap: 40px;
+    }
+
+    .profile__text{
+        font-size: 2.2rem;
+        display: flex;
+        place-content: center;
+    }
+
+    .profile__name{
+        font-size: 4rem;
+        display: flex;
+        place-content: center;
+    }
+
+    .section-title {
+        font-size: 105px;
+    }
+
+    .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .descricao{
+        display: flex;
+        gap: 40px;
+    }
+
+    .descricao__title {
+        padding-left: 32px;
+    }
+
+    .descricao__text {
+        padding-left: 32px;
+    }
+
+    .skills {
+        display: flex;
+        
+        gap: 40px;
+    }
+
+    .skills__title {
+        padding-left: 32px;
+    }
+
+
+
+}
+    
