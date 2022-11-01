@@ -1,0 +1,99 @@
+/* Tablet */
+<!-- @media(max-width: 960px){
+
+} 
+
+
+/* Mobile */
+<!-- @media(max-width: 640px) {
+   
+    header {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    nav {
+        display: none;
+    }
+
+    .icon {
+        display: block;
+        font-size: 1.5rem;
+    }
+
+    .home {
+        position: relative;
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+    }
+
+    .profile {
+        display: grid;
+        place-items: center;
+    }
+
+    .grupTextos {
+        display: grid;
+        place-items: center;
+    }
+
+    .profile__text {
+        font-size: 2rem;
+    }
+
+   .section-title {
+       font-size: 4rem;
+   }
+
+   .sobre-mim{
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+    }
+
+   .descricao {
+       display: flex;
+       gap: 10px; 
+       width: 400px;
+       height: 280px;
+   }
+
+   .descricao__title {
+       font-size: 2rem;
+       padding-left: 20px;
+   }
+
+   .descricao__text {
+       font-size: 1rem;
+       padding-left: 20px;
+   }
+
+   .skills {
+        height: 125px;
+        width: 200px;
+        display: flex;
+   }
+   
+   .skills__title {
+       font-size: 2rem;
+       display: flex;
+   }
+
+   .skills__icon {
+        width: 125px;
+        height: 125px;
+        
+   }
+
+   .projetos {
+       display: flex;
+        
+       height: 85vh;
+   }
+
+   .card__container {
+       display: flex;
+   }
+}
+    

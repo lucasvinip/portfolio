@@ -12,3 +12,7 @@
 .menu li:hover{
     border-color: var(--primary-color);
 }
+
+.icon{
+    display: none;
+}
