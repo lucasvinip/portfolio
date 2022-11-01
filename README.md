@@ -8,7 +8,7 @@
 
 ## Sobre
 
-Um portfolio sobre mim, como quem eu sou e minhas skills, e divulgando alguns dos meus projetos em HTML e CSS.
+Um portfolio sobre mim, dizendo quem eu sou e minhas skills, e divulgando alguns dos meus projetos em HTML e CSS.
 
 ---
 ## Tecnologias aplicadas
