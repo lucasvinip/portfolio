@@ -1,9 +1,3 @@
-/* Tablet */
-<!-- @media(max-width: 960px){
-
-} 
-
-
 /* Mobile */
 <!-- @media(max-width: 640px) {
    
@@ -138,6 +132,11 @@
         display: flex;
         width: 100%;
         align-items: center;
+    }
+
+    footer {
+        height: 10px;
+        font-size: 1rem;
     }
 
 }
