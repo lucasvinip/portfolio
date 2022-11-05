@@ -49,8 +49,9 @@
    .sobre-mim{
         display: flex;
         flex-direction: column;
-        height: 160vh;
-        gap: 20px;
+        height: 150vh;
+        gap: 30px;
+        align-items: center;
     }
 
    .descricao {
@@ -69,6 +70,7 @@
    .descricao__text {
        font-size: 1rem;
        display: flex;
+       width: 590px;
    }
 
    .skills {
@@ -88,10 +90,55 @@
         height: 600px;
         display: flex;
         justify-content: center;
-        gap: 5px;
+        gap: 60px;
    }
 
-   
+   .projetos{
+        height: auto;
+        gap: 25px;
+    }
+
+    .card-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: unset;
+    }
+
+    .card img {
+        height: 200px;
+        width: 300px;
+    }
+
+    .contato {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .contato-container {
+        font-size: 1rem;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+    .social {
+        font-size: 1.5rem;
+    }
+
+    .social-container {
+        display: flex;
+        width: 300px;
+    }
+
+    .link-container {
+        font-size: 1rem;
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
 
 }
     

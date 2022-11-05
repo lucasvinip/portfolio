@@ -48,10 +48,11 @@ section{
 footer{
     grid-area: content;
     place-self: end center;
-    height: 50px;
+    height: 20px;
     width: 100%;
     display: grid;
     place-content: center;
     border-top: 2px solid #fff;
     font-size: .75rem;
+    
 }
